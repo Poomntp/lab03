@@ -9,8 +9,8 @@
 export default {
   name: "EventCard",
 
-  event: {
-    props: {
+  props: {
+    event: {
       type: Object,
       required: true,
     },
